@@ -14,3 +14,6 @@ C:\Users\btjen\Desktop\Eleven Fifty\ElevenFiftyProjects\PetZen\PetZen.Models\bin
 C:\Users\btjen\Desktop\Eleven Fifty\ElevenFiftyProjects\PetZen\PetZen.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\btjen\Desktop\Eleven Fifty\ElevenFiftyProjects\PetZen\PetZen.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\btjen\Desktop\Eleven Fifty\ElevenFiftyProjects\PetZen\PetZen.Models\obj\Debug\PetZen.Models.csproj.CopyComplete
+C:\Users\btjen\Desktop\Eleven Fifty\ElevenFiftyProjects\PetZen\PetZen.Models\bin\Debug\PetZen.Data.dll
+C:\Users\btjen\Desktop\Eleven Fifty\ElevenFiftyProjects\PetZen\PetZen.Models\bin\Debug\PetZen.Data.pdb
+C:\Users\btjen\Desktop\Eleven Fifty\ElevenFiftyProjects\PetZen\PetZen.Models\bin\Debug\PetZen.Data.dll.config

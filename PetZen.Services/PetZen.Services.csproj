@@ -56,11 +56,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PetService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PetZen.Data\PetZen.Data.csproj">
+      <Project>{51e41a32-c360-483e-8030-bc571dfaa7a1}</Project>
+      <Name>PetZen.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PetZen.Models\PetZen.Models.csproj">
+      <Project>{ce29be72-09fb-4be3-9bd3-4c3c6e6250ce}</Project>
+      <Name>PetZen.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

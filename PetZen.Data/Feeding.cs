@@ -14,6 +14,9 @@ namespace PetZen.Data
         public int FeedingId { get; set; }
 
         [Required]
+        public Guid OwnerId { get; set; }
+
+        [Required]
         public DateTime FeedDateTime { get; set; }
 
         [Required]

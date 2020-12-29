@@ -14,6 +14,9 @@ namespace PetZen.Data
         public int ActivityId { get; set; }
 
         [Required]
+        public Guid OwnerId { get; set; }
+
+        [Required]
         public ActivityEnum ActType { get; set; }
 
         [Required]

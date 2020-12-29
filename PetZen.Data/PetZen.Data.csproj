@@ -60,6 +60,15 @@
     <Compile Include="Food.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Medication.cs" />
+    <Compile Include="Migrations\202012290128168_InitialCreate.cs" />
+    <Compile Include="Migrations\202012290128168_InitialCreate.Designer.cs">
+      <DependentUpon>202012290128168_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012290237536_AddUsertoTables.cs" />
+    <Compile Include="Migrations\202012290237536_AddUsertoTables.Designer.cs">
+      <DependentUpon>202012290237536_AddUsertoTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Pet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpeciesEnum.cs" />
@@ -67,6 +76,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202012290128168_InitialCreate.resx">
+      <DependentUpon>202012290128168_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012290237536_AddUsertoTables.resx">
+      <DependentUpon>202012290237536_AddUsertoTables.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

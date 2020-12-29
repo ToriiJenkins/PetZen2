@@ -13,6 +13,9 @@ namespace PetZen.Data
         public int PetId { get; set; }
 
         [Required]
+        public Guid OwnerId { get; set; }
+
+        [Required]
         public string Name { get; set; }
 
         public SpeciesEnum Species { get; set; }
